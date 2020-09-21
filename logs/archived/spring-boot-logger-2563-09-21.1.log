@@ -1,0 +1,7 @@
+2563-09-21 20:07:16,764 INFO org.apache.juli.logging.DirectJDKLog [http-nio-1150-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2563-09-21 20:07:16,766 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1150-exec-2] Initializing Servlet 'dispatcherServlet'
+2563-09-21 20:07:16,771 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-1150-exec-2] Completed initialization in 5 ms
+2563-09-21 20:07:16,787 ERROR com.ghb.stock_backend.controller.api.ProductController [http-nio-1150-exec-2] iBlurBlur error
+2563-09-21 20:08:51,851 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(6)-127.0.0.1] Application shutdown requested.
+2563-09-21 20:08:52,097 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(6)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2563-09-21 20:09:03,980 ERROR com.ghb.stock_backend.controller.api.ProductController [http-nio-1150-exec-2] iBlurBlur error

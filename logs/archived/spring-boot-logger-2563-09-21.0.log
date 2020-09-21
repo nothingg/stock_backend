@@ -1,0 +1,10 @@
+2563-09-21 20:06:58,433 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2563-09-21 20:06:59,159 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 1150 (http)
+2563-09-21 20:06:59,166 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-1150"]
+2563-09-21 20:06:59,167 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2563-09-21 20:06:59,168 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2563-09-21 20:06:59,235 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2563-09-21 20:06:59,845 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1365 ms
+2563-09-21 20:07:00,027 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2563-09-21 20:07:00,151 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-1150"]
+2563-09-21 20:07:00,172 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 1150 (http) with context path ''

@@ -1,5 +1,6 @@
 package com.ghb.stock_backend.controller.api;
 
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
@@ -24,15 +25,19 @@ import com.ghb.stock_backend.exception.ValidationException;
 import com.ghb.stock_backend.model.Product;
 import com.ghb.stock_backend.service.StorageService;
 
+import lombok.extern.slf4j.Slf4j;
+
 @RestController
 @RequestMapping("/product")
-public class productController {
+@Slf4j
+public class ProductController {
 
 	private final AtomicLong counter = new AtomicLong();
 	private List<Product> products = new ArrayList<>();
 	private StorageService storageService;
 	
-	public productController(StorageService storageService) {
+	
+	public ProductController(StorageService storageService) {
 		this.storageService = storageService;
 		
 	}
@@ -40,6 +45,8 @@ public class productController {
 	//
 	@GetMapping()
 	public List<Product> getProducts() {
+		log.error("iBlurBlur error");
+		log.warn("iBlurBlur warn");
 		return products;
 	}
 
